@@ -9,8 +9,10 @@ public class Register {
 
     public static void main(String[] args) {
 
+        Controller controller = new Controller();
+
         while (true) {
-            Controller controller = new Controller();
+
 
             System.out.println("SISTEMA CADASTRADOR DE USUÁRIOS");
             System.out.println("-----------------------------------------");

@@ -22,5 +22,4 @@ object Model {
     fun viewUsers(): List<User> {
         return userList.toList()
     }
-
 }

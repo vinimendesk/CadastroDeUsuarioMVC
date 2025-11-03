@@ -2,14 +2,16 @@ package controller
 
 import model.Model
 import model.User
+import service.UserService
 
 class Controller {
 
     private val model = Model
+    private val userService = UserService()
 
     // Função adicionar usuários.
     fun addUser(user: User) {
-        model.addUser(user)
+        userService.addUser(user)
     }
 
     // Função visualizar usuários.
